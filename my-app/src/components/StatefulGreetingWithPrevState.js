@@ -36,7 +36,7 @@ class StatefulGreetingWithPrevState extends React.Component {
     render() {
         return ( 
         <div>
-        <h1>{this.state.introduction} {this.props.greeting}</h1>
+        <h1>{this.state.introduction}</h1>
         <button onClick={() => this.handelClick()}>{this.state.buttonText}</button>
         <br></br>
         <button onClick={() => this.increment()}>Count</button>
