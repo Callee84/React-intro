@@ -30,4 +30,4 @@ export class NestingComponents extends Component {
   }
 }
 
-export default ConditionalRenderingClass
+export default NestingComponents
