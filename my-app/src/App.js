@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import ControlledFromHooks from './components/ControlledFromHooks';
+import UseStateWithArrays from './components/UseStateWithArrays'
 
 
 function App() {
   return (
     <div className="App">
-      <ControlledFromHooks/>
-    </div>
+      <UseStateWithArrays />
+    </div> 
   );
 }
 
